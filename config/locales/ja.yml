@@ -1,4 +1,7 @@
 ja:
+  shared:
+    header: "BAUKIS2"
+    footer: "&2022 husita666"
   top:
     admin: "管理者トップページ"
     staff: "職員トップページ"
