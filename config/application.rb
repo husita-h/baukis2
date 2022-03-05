@@ -18,6 +18,10 @@ module Baukis2
     config.time_zone = "Tokyo"
     config.i18n.load_path +=
       Dir[Rails.root.join("config", "locals", "**", "*.{rb,yml}").to_s]
-    config.i18n.default_locales = :ja
+    config.i18n.default_locale = :ja
+    config.generators do |g|
+      g.assets false
+      g.test_framework :rspec
+    end
   end
 end
