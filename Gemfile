@@ -59,3 +59,7 @@ end
 
 gem "haml-rails"
 gem "rails-i18n"
+
+# 参考：sassc 2.4.0のbundle installが異常に時間がかかる。 #9
+# https://github.com/oiax/rails6-compose/issues/9
+# gem 'sassc', '2.1.0'
