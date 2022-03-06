@@ -18,7 +18,9 @@
 
 ### サーバー起動 (development 環境)
 
-`rails s -b 0.0.0.0`
+```
+rails s -b 0.0.0.0
+```
 
 access to
 http://example.com:3000/ or http://baukis2.example.com:3000/
