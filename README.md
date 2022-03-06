@@ -22,5 +22,14 @@
 rails s -b 0.0.0.0
 ```
 
+or
+
+`sh start.sh`
+
+```
+rm tmp/pids/server.pid
+rails s -b 0.0.0.0
+```
+
 access to
 http://example.com:3000/ or http://baukis2.example.com:3000/
